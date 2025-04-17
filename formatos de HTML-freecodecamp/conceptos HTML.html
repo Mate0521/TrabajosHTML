@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Conceptos de HTML</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="https://avatars.githubusercontent.com/u/110208091?v=4" type="image/png">
+</head>
+<main>
+    <header>
+        <h1>Conceptos de HTML</h1>
+    </header>
+    <body>
+        <section>
+            <h2>Introducción</h2>
+            <p>HTML (HyperText Markup Language) es el lenguaje de marcado estándar para crear páginas web.</p>
+
+            <h2>nevegacion por la pagina Web</h2>
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About for me</a></li>
+                        <li><a href="#projects">Projects and Hobbies </a></li>
+                        <li><a href="#community">Communities</a></li>
+                        <li><a href="#contact">Contactame</a></li>
+                    </ul>
+                </nav>
+             
+            <h2>titulos</h2>
+                <h1>Título 1</h1>
+                <h2>Título 2</h2>
+                <h3>Título 3</h3>
+                <h4>Título 4</h4>
+                <h5>Título 5</h5>
+                <h6>Título 6</h6>
+
+            <h2>letra</h2>
+                <p>Este es un texto en <strong>negrita</strong> </p>
+                <p>Este es un texto en <b>negrita</b></p>
+                <p>Este es un texto en <em>cursiva</em></p>
+                <p>Este es un texto en <mark>resaltado</mark></p>
+                <p>Este es un texto en <small>pequeño</small></p>
+                <p>Este es un texto en <del>tachado</del></p>
+                <p>Este es un texto en <s>tachado</s> </p>
+                <p>Este es un texto en<u>subrayado</u></p>
+                <p>Este es un texto en <ins>subrayado</ins>.</p>
+                <p>Este es un texto en <sub>subíndice</sub>.</p>
+                <p>Este es un texto en <sup>superíndice</sup>.</p>
+
+            <h2>formato de letra grande (big)</h2>
+                <p>
+                    This text has a normal font size.
+                    <big>This text is larger.</big>
+                </p>
+
+            <h2>diferente lenguaje</h2>
+                <p>There is a certain <i lang="fr">je ne sais quoi</i> in the air.</p> 
+                
+            <h2>Listas</h2>
+                <h3>Lista Desordenada</h3>
+                <ul>
+                    <li>Elemento 1</li>
+                    <li>Elemento 2</li>
+                    <li>Elemento 3</li>
+                </ul>
+
+                <h3>Lista Ordenada</h3>
+                <ol>
+                    <li>Elemento 1</li>
+                    <li>Elemento 2</li>
+                    <li>Elemento 3</li>
+                </ol>
+
+            <h2>Lista Descriptiva</h2>
+                <dl>
+                    <dt>HTML</dt>
+                    <dd>Lenguaje de marcado para crear páginas web.</dd>
+                    <dt>CSS</dt>
+                    <dd>Lenguaje de estilo para dar formato a las páginas web.</dd>
+                    <dt>JavaScript</dt>
+                    <dd>Lenguaje de programación para crear interactividad en las páginas web.</dd>
+                </dl>
+
+            <h2>Citas</h2>
+                <blockquote cite="https://www.example.com">
+                    "La vida es lo que pasa mientras estás ocupado haciendo otros planes."
+                    <footer>— John Lennon</footer>
+                </blockquote>
+                <p>
+                    As Quincy Larson said,
+                    <q cite="https://www.freecodecamp.org/news/learn-to-code-book/">
+                      Momentum is everything.
+                    </q>
+                </p>
+
+            <h2>Abrebiaciones</h2>
+                <p>La <abbr title="World Wide Web">WWW</abbr> es una parte importante de Internet.</p>
+                <p>La <abbr title="Hypertext Markup Language">HTML</abbr> es el lenguaje de marcado utilizado para crear páginas web.</p>
+
+            <h2>Address</h2>
+                <address>
+                    <h2>Company Name</h2>
+                    <p>
+                    1234 Elm Street<br />
+                    Springfield, IL 62701<br />
+                    United States
+                    </p>
+                    <p>Phone: <a href="tel:+15555555555">+1 (555) 555-5555</a></p>
+                    <p>Email: <a href="mailto:contact@company.com">contact@company.com</a></p>
+                </address>
+
+            <h2>Tiempo</h2>
+                <p>La reunión está programada para el <time datetime="2023-10-01">1 de octubre de 2023</time>.</p>
+                <p>El evento comenzará a las <time datetime="2023-10-01T14:00">14:00</time>.</p>
+
+            <h2>Superindices y Subindices</h2>
+                <p>CO<sub>2</sub></p>
+                <p>4<sup>2</sup>= 16</p>
+
+            <h2>Etiqueta pre y code</h2>
+                <pre>
+                    <code>
+                    body {
+                        color: red;
+                    }
+                    </code>
+                </pre>
+
+                <p>
+                    To set the text color to blue in CSS, use the following code:
+                    <code>color: blue;</code>
+                </p>
+
+            <h2>Etiqueta Ruby </h2>
+                <p>La palabra <ruby>漢字<rp>(</rp><rt>kanji</rt><rp>)</rp></ruby> se refiere a los caracteres chinos utilizados en el idioma japonés.</p>
+                <p>La palabra <ruby>ひらがな<rp>(</rp><rt>hiragana</rt><rp>)</rp></ruby> se refiere a uno de los silabarios utilizados en el idioma japonés.</p>
+
+
+            <h2>Etiqueta Span</h2>
+                <p>El <span style="color: red;">texto en rojo</span> es un ejemplo de cómo usar la etiqueta <code>&lt;span&gt;</code>.</p>
+                <p>El <span style="font-weight: bold;">texto en negrita</span> es otro ejemplo de cómo usar la etiqueta <code>&lt;span&gt;</code>.</p>
+            
+            <h2>imagen </h2>
+                <p>Esta es una imagen de un gato:</p>
+                <img src="https://example.com/cat.jpg" alt="Un gato" width="300" height="200" />
+                <p>Esta es una imagen de un perro:</p>
+                <img src="https://example.com/dog.jpg" alt="Un perro" width="300" height="200" />
+
+            <h2>Formulario</h2>
+                <form action="submit_form.php" method="post">
+                    <label for="name">Nombre:</label><br>
+                    <input type="text" id="name" name="name"><br><br>
+                    <label for="email">Correo electrónico:</label><br>
+                    <input type="email" id="email" name="email"><br><br>
+                    <input type="submit" value="Enviar">
+                    <button type="reset">Restablecer</button>
+                </form>
+
+            <h2>Tabla</h2>
+                <table border="1">
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Edad</th>
+                        <th>Ciudad</th>
+                    </tr>
+                    <tr>
+                        <td>Juan</td>
+                        <td>25</td>
+                        <td>Madrid</td>
+                    </tr>
+                    <tr>
+                        <td>Ana</td>
+                        <td>30</td>
+                        <td>Barcelona</td>
+                    </tr>
+                </table>
+                <p>Esta es una tabla de ejemplo:</p>
+            
+            <h2>Figure y Figcaption</h2>
+                <figure>
+                    <img src="https://example.com/image.jpg" alt="Descripción de la imagen" width="300" height="200">
+                    <figcaption>Esta es una imagen de ejemplo.</figcaption>
+                </figure>
+                <figure>
+                    <img src="https://example.com/image2.jpg" alt="Descripción de la imagen" width="300" height="200">
+                    <figcaption>Esta es otra imagen de ejemplo.</figcaption>
+                </figure>
+            
+            
+            
+            <br></br><p>For more information, visit <a href="https://www.w3schools.com">W3Schools</a>.</p>
+
+        </section>
+    </body>
+    <footer>
+
+        <p>&copy; 2023 My Web Page</p>
+    </footer>
+</main>
