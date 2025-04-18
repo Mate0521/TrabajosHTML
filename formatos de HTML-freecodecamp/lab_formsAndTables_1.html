@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Please fill out this survey to help us improve.</p>
+    <form id="survey-form">
+      <fieldset>
+        <label for="name" id="name-label">Name:</label>
+        <input type="text" id="name" name="name" required placeholder="Enter your name" />
+        <label for="email" id="email-label">Email:</label>`
+        <input type="email" id="email" name="email" required placeholder="Enter your email" />
+        <label for="age" id="number-label">Age:</label>
+        <input type="number" id="number" name="number" required min="0" max="100"  placeholder="Enter your age"/>
+      </fieldset>
+      <fieldset>
+        <label for="dropdown" id="sex">sex</label>
+        <select name="dropdown" id="dropdown" required>
+          <option value="" disabled selected>Select your option</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <label for="checkbox">note-taking mode</label>
+        <label for="notebook">Notebook</label>
+        <input type="checkbox" id="checkbox" name="checkbox" value="notebook" />
+        <label for="tablet">Tablet</label>
+        <input type="checkbox" id="tablet" name="checkbox" value="tablet" />
+        <label for="cell-phone">Cell Phone</label>
+        <input type="checkbox" id="cell-phone" name="checkbox" value="cell phone" />
+        <label for="laptop">Laptop</label>
+        <input type="checkbox" id="laptop" name="checkbox" value="laptop" />
+        <label for="USB">USB</label>
+        <input type="checkbox" id="USB" name="checkbox" value="USB" />
+        <label for="desktop-computer">Desktop Computer</label>
+        <input type="checkbox" id="desktop-computer" name="checkbox" value="desktop computer" />
+        <label for="other">Other</label>
+        <input type="checkbox" id="other" name="checkbox" value="other" />
+      </fieldset>
+      <fieldset>
+        <label>take the survey from a mobile device</label>
+        <label for="yes-option">Yes</label>
+        <input id="yes-option" type="radio" name="hotel-stay" value="yes" />
+        <label for="no-option">No</label>
+        <input id="no-option" type="radio" name="hotel-stay" value="no"/>
+      </fieldset>
+      <fieldset>
+        <label for="feedback">Feedback:</label>
+        <input type="text" id="feedback" name="feedback" placeholder="Enter your feedback" />
+      </fieldset>
+      <fieldset>
+        <label for="comments">Comments</label>
+        <textarea id="comments" name="comments" rows="5" cols="30" placeholder="Enter your comments"></textarea>
+      </fieldset>
+
+      <input type="submit" value="Submit" id="submit" />
+
+    </form>
+  </body>
+</html>
