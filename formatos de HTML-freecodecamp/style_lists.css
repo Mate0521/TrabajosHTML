@@ -1,0 +1,45 @@
+/* Style the todo list */
+.todo-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.todo-list li {
+    margin-bottom: 20px;
+}
+
+/* Style the links inside sub-items */
+.sub-item-link {
+    text-decoration: none; /* Remove default text decoration */
+    color: #007BFF; /* Set link color to blue */
+}
+
+/* Change color when link is hovered */
+.sub-item-link:hover {
+    color: #FF5733; /* Change to orange on hover */
+}
+
+/* Change color when link is focused */
+.sub-item-link:focus {
+    outline: 2px solid #FFD700; /* Add a yellow outline when focused */
+}
+
+/* Change color when link is clicked (active state) */
+.sub-item-link:active {
+    color: #32CD32; /* Change to lime green on click */
+}
+
+/* Change color when link is visited */
+.sub-item-link:visited {
+    color: #800080; /* Change to purple after visited */
+}
+
+/* Style the checkbox and label */
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Style the label */
+label {
+    font-weight: bold;
+}
