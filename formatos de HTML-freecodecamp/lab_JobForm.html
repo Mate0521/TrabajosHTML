@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="styles_lab_JobForm.css">
+</head>
+<body>
+
+  <div class="container">
+    <form action="#" method="POST">
+      
+      <!-- Nombre completo -->
+      <input type="text" id="name" name="name" placeholder="Tu nombre completo" required>
+
+      <!-- Correo electrónico -->
+      <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+
+      <!-- Selección de puesto -->
+      <select id="position" name="position" required>
+        <option value="" disabled selected>Selecciona un puesto</option>
+        <option value="developer">Desarrollador</option>
+        <option value="designer">Diseñador</option>
+        <option value="manager">Gerente</option>
+      </select>
+
+      <!-- Grupo de disponibilidad -->
+      <fieldset class="radio-group">
+        <legend>Disponibilidad</legend>
+        <input type="radio" id="full-time" name="availability" value="full-time">
+        <label for="full-time">Tiempo Completo</label>
+        
+        <input type="radio" id="part-time" name="availability" value="part-time">
+        <label for="part-time">Medio Tiempo</label>
+      </fieldset>
+
+      <!-- Mensaje -->
+      <textarea id="message" name="message" placeholder="Escribe tu mensaje aquí" required></textarea>
+
+      <!-- Botón de envío -->
+      <button type="submit">Enviar</button>
+
+    </form>
+  </div>
+
+</body>
+</html>
