@@ -1,0 +1,36 @@
+body {
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.color-grid {
+  display: flex;
+  gap: 10px;
+}
+
+.color-box {
+  width: 100px;
+  height: 100px;
+}
+
+/* Color for each box */
+.color1 {
+  background-color: #3498db; /* Hexadecimal color */
+}
+
+.color2 {
+  background-color: rgb(255, 99, 71); /* RGB color */
+}
+
+.color3 {
+  background-color: gold; /* Predefined (named) color */
+}
+
+.color4 {
+  background-color: hsl(120, 60%, 50%); /* HSL color */
+}
+
+.color5 {
+  background-color: coral; /* Any background color */
+}

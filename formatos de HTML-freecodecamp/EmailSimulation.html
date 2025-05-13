@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Email Simulation</title>
+  <style>
+    #email {
+      padding: 50px;
+      margin-top: 50px;
+      width: 500px;
+      border: 2px solid black;
+      box-sizing: border-box;
+    }
+
+    #confidential,
+    #top-secret {
+      display: inline-block;
+      padding: 10px;
+      margin-left: 10px;
+      border: 1px solid red;
+      transform: rotate(-5deg);
+    }
+
+    #top-secret {
+      transform: rotate(5deg);
+    }
+
+    .blurred {
+      filter: blur(3px);
+    }
+  </style>
+</head>
+<body>
+
+<main id="email">
+  <div id="confidential">CONFIDENTIAL</div>
+  <div id="top-secret">TOP SECRET</div>
+
+  <p>This is a paragraph with a <span class="blurred">secret</span> detail.</p>
+  <p>Another line that contains <span class="blurred">sensitive</span> words for training.</p>
+  <p>Sometimes we must hide <span class="blurred">classified</span> info from view.</p>
+</main>
+
+</body>
+</html>
